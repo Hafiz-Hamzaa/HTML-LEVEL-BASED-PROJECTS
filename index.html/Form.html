@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <h2 >Registeration Form</h2>
+    <form action="/contact-me.php" method="post">
+        <h4>Personal Info</h4>
+        <label for="user_name">User Name:</label>
+        <input type="text"placeholder="username"id="user_name"><br>
+        <label for="user_password">User Password:</label>
+        <input type="password"placeholder="userpassword"id="user_password"><br>
+        <hr>
+        <h4>Date Section</h4>
+        <input type="date"><br>
+        <hr>
+        <h4>Select only one option for languages</h4>
+        <label for="HTML">HTML</label>
+        <input type="radio"name="lang"value="html"id="HTML"><br>
+        <label for="CSS">CSS</label>
+        <input type="radio"name="lang"value="css"id="CSS"><br>
+        <label for="javascript">Javascript</label>
+        <input type="radio"name="lang"value="javascript"id="javascript"><br>
+        <hr>
+        <h4>Select multiple option for other languages</h4>
+        <label for="java">Java</label>
+        <input type="checkbox"name="language"value="java"id="java"><br>
+        <label for="python">Python</label>
+        <input type="checkbox"name="language"value="python"id="python"><br>
+        <label for="c++">C++</label>
+        <input type="checkbox"name="language"value="c++"id="c++"><br>
+        <label for="c">C</label>
+        <input type="checkbox"name="language"value="c"id="c"><br>
+        <hr>
+        <h4>Drop Down Section</h4>
+        <label for="city">Select a City : </label>
+        <select name="city"id="city">
+            <option value="Lahore">Lahore</option><br>
+            <option value="Karachi">Karachi</option><br>
+            <option value="Multan">Multan</option><br>
+            <option value="Islamabad">Islamabad</option>
+        </select><br>
+        <br>
+        <hr>
+        <h4>Range Section</h4>
+        <input type="range"><br>
+        <br>
+        <hr>
+        <h4>File Section</h4>
+        <input type="file"><br>
+        <hr>
+        <h4>Feedback Section</h4>
+        <label for="comment"></label>
+        <textarea name="feedback" id="comment"rows="5"columns="5"></textarea>><br>
+        <input type="submit"value="submit">
+
+    </form>
+    
+</body>
+</html>
